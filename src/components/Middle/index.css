@@ -1,0 +1,15 @@
+.first-div {
+    margin-top: 50px;
+    /* display: block; */
+    display: flex !important;
+    justify-content: center; /* center the elements horizontally */
+    align-items: center; /* center the elements vertically */
+  }
+  
+  .color-div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 10px; /* add some spacing between the elements */
+    display: block;
+  }

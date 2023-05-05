@@ -1,0 +1,47 @@
+.contact {
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact h2 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #323f52;
+  }
+  .contact p {
+    margin-bottom: 3rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #687281;
+  }
+  .cards {
+    gap: 90px;
+    display: flex;
+  }
+  .card {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+      rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
+  .card .iconl {
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem !important;
+    text-align: center !important;
+    border-radius: 50%;
+  }
+  .card .num {
+    width: 60%;
+  }
